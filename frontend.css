@@ -1,0 +1,244 @@
+body{
+    padding-top:150px;
+    height:3000px;
+}
+
+
+
+.flex-header{
+    border: 2px solid white;
+    height: 69px;
+   display: flex;
+  flex-direction: row;
+ align-items: center;
+ position: fixed;
+ z-index: 1;
+ top: 0;
+
+ left: 0;
+ right: 0;
+    background-color: white;
+    border-bottom: 2px solid black;
+ 
+    padding-bottom:19px;
+   
+}
+html{
+    scroll-behavior: smooth;
+}
+.video-grid{
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    
+    column-gap:10px;
+    row-gap:10px;
+    margin-left: 200px;
+
+   
+    
+}
+.container{
+
+    width:330px;
+    border-radius: 15px;
+    margin-left: 50px;
+   
+}
+
+.container-2{
+    display: block;
+}
+.thumnail{
+    width: 100%;
+    border-radius: 15px;
+    transition:0.15s;
+}
+.thumnail:hover{
+    border-radius: 0%;
+    transform: scale(1.1);
+}
+.channel-profile{
+    width: 40px;
+   border-radius: 50%;
+    margin-right: 10px;
+    position: relative;
+    top:10px;
+    cursor: pointer;
+    transition: 0.15s;
+ }
+.channel-profile:hover{
+    transform: scale(1.2);
+}
+
+
+.title-description{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    width: 300px;
+    height: 90px;
+    display: flex   ;
+    position: relative;
+    bottom:10px;
+    color:black;
+    cursor: pointer;
+   
+    border-radius: 10px;
+}
+.author{
+    font-weight: bold;
+     font-size: 12px;
+     position: relative;
+     bottom:10px;
+     font-size: 14px;
+     color: #606060;
+     cursor: pointer;
+}
+.stats{
+    font-size: 14px;
+    position: relative;
+    bottom:20px;
+    color:#606060;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+ /* header section*/
+.youtube-header{
+    width: 180px;
+    display: inline-block;
+    transition: 0.15s;
+    margin-left:20px;
+  
+}
+#check{
+    appearance: none;
+}
+
+.class-box{
+    width: 90px;
+    
+    border: 2px solid red;
+    
+    
+}
+.cross{
+    width: 30px;
+    opacity: 0;
+    
+    
+}
+.hamburger{
+    width: 30px;
+    position:absolute;
+    left: 10px;
+    
+}
+#check:checked ~ .flex-header .left-header .class-box .hamburger {
+    opacity: 0;
+    left: 300px;
+}
+.youtube-header:hover{
+    opacity: 0.7;
+}
+.search{
+    width: 500px;
+    height: 50px;
+    border-radius: 29px 0px 0px 29px;
+    border: 2px solid #606060;
+    font-family:Roboto,Arial;
+    font-size:16px;
+    outline: none;
+}
+.search:focus{
+    border: 2px solid rgb(69, 69, 247);
+    
+}
+.search-button{
+    width: 90px;
+    height:50px;
+    padding-left: px;
+    padding-right:5px;
+    margin-right:10px;
+    margin-left:-1px;
+    background-color: white;
+    border:1px solid #606060;
+    border-radius: 0px 29px 29px 0px ;
+
+}
+.search-icon{
+    
+    height: 30px;
+}
+.microphone-button{
+    
+        width: 60px;
+        height:50px;
+        padding-left: 5px;
+        padding-right:5px;
+        margin-right:10px;
+        background-color: white;
+        border:none;
+        transition: 0.15s;
+ }
+ .microphone-button:hover{
+    color: white;
+    background-color:#ff81b642;
+    border-radius: 50%;
+ }
+ .microphone-icon{
+    height: 29px;
+ }
+ .notification-button{
+    width:50px;
+    height:50px;
+    border: none;
+    
+    background-color: white;
+    transition: 0.15s;
+   
+ }
+ .notification-button:hover{
+    background-color:#ff81b642;
+    border-radius: 50%;
+ }
+ .notification-icon{
+    height:29px;
+ }
+ .create-button{
+        width:50px;
+        height:50px;
+        border:none;
+   
+        background-color: white;
+        transition: 0.15s;
+        
+}
+.create-icon{
+    height:29px;
+    position: relative;
+    top: 1px;
+    border-radius: 50%;
+}
+.create-button:hover{
+    background-color:#ff81b642;
+}
+.header-profile-button{
+        width:60px;
+        height:50px;
+        border: none;
+       background-color: white;
+       transition: 0.15s;
+        
+        
+}
+.header-profile-button:hover{
+    background-color:#ff81b642;
+    border-radius: 50%;
+}
+.header-profile-icon{
+    height:45px;
+    border-radius: 50%;
+}
+
+

@@ -1,0 +1,29 @@
+
+.left-header{
+    display:flex;
+    flex-direction: row;
+    width: 300px;
+    align-items: center;
+  
+}
+.middle-header{
+    flex: 1;
+    
+    margin-left:20px;
+    margin-right:30px;
+    max-width: 1000px;
+    display:flex;
+    align-items: center;
+   
+    
+}
+.right-header{
+
+    width:200px;
+ 
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+}
+
+
